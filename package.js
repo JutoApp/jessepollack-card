@@ -20,8 +20,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.3.4.1');
 
   var path = Npm.require('path');
-  api.use(['ecmascript','coffeescript','fourseven:scss'],['client']);
-  api.imply(['fourseven:scss','wolves:bourbon'],['client']);
+  api.use(['ecmascript','coffeescript','fourseven:scss@3.8.0_1'],['client']);
+  api.imply(['fourseven:scss@3.8.0_1','wolves:bourbon@3.1.0'],['client']);
   api.addFiles([
     path.join('lib','coffee','card.coffee'),
     path.join('lib','coffee','jquery.card.coffee'),
