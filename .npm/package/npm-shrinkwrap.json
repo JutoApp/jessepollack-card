@@ -1,24 +1,25 @@
 {
+  "lockfileVersion": 1,
   "dependencies": {
     "is": {
       "version": "2.1.0",
       "resolved": "https://registry.npmjs.org/is/-/is-2.1.0.tgz",
-      "from": "is@>=2.1.0 <2.2.0"
+      "integrity": "sha1-zz3DpeHdIccuODjYFw5fdGEnvos="
     },
     "node.extend": {
       "version": "1.1.3",
       "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.3.tgz",
-      "from": "node.extend@1.1.3"
+      "integrity": "sha1-nNBtawWhnKna+Pe6V0qNHO0oDZ8="
     },
     "payment": {
       "version": "2.0.3",
-      "resolved": "http://localhost:4873/payment/-/payment-2.0.3.tgz",
-      "from": "payment@2.0.3"
+      "resolved": "https://registry.npmjs.org/payment/-/payment-2.0.3.tgz",
+      "integrity": "sha1-QARhvX79xLPd7/n4M9V2XlBOTxE="
     },
     "qj": {
       "version": "2.0.0",
-      "resolved": "http://localhost:4873/qj/-/qj-2.0.0.tgz",
-      "from": "qj@2.0.0"
+      "resolved": "https://registry.npmjs.org/qj/-/qj-2.0.0.tgz",
+      "integrity": "sha1-BU3Tt1zgGHKNI6BgXwMN/aC9FYo="
     }
   }
 }
